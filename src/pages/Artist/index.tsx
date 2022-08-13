@@ -1,14 +1,15 @@
 import styled from 'styled-components';
+import FeaturedArtist from './Featured/FeaturedArtist';
 
-const Test = styled.div`
-  color: ${(props) => props.theme.font.colors.primary_orange};
+const Wrapper = styled.div`
+  max-width: 100%;
 `;
 
 const Artist = () => {
   return (
-    <>
-      <Test>Artist</Test>
-    </>
+    <Wrapper>
+      <FeaturedArtist />
+    </Wrapper>
   );
 };
 

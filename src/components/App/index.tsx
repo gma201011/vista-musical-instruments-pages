@@ -1,12 +1,13 @@
 import { ResetStyle } from './ResetStyle';
 import ArtistPage from '../../pages/Artist';
+import { ViewportProvider } from '../../contexts/viewportContext';
 
 const App = () => {
   return (
-    <div className='App'>
+    <ViewportProvider>
       <ResetStyle />
       <ArtistPage />
-    </div>
+    </ViewportProvider>
   );
 };
 
