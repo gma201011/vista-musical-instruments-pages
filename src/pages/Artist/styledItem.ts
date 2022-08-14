@@ -1,13 +1,22 @@
 import styled from 'styled-components';
+import { MEDIA_QUERY_MD, MEDIA_QUERY_SM } from '../../constants';
 
 export const StyledTitle = styled.h2`
-  font-size: 75px;
+  font-size: 60px;
   font-family: Roboto Condensed, Roboto, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+  @media ${MEDIA_QUERY_MD} {
+    font-size: 30px;
+  }
+  @media ${MEDIA_QUERY_SM} {
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 15px;
+  }
 `;
 
-export const StyledContent = styled.p`
+export const StyledText = styled.p`
   font-size: 16px;
   font-family: Roboto Condensed, Roboto, sans-serif;
   line-height: 1.5;

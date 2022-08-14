@@ -1,0 +1,44 @@
+{
+  "creator": [
+    {
+      "id": "1",
+      "name": "Adam_Neely",
+      "path": "/creators/Adam_Neely.webp"
+    },
+    {
+      "id": "2",
+      "name": "Clark_Kent",
+      "path": "/creators/Clark_Kent.webp"
+    },
+    {
+      "id": "3",
+      "name": "Jose_Rios",
+      "path": "/creators/Jose_Rios.webp"
+    },
+    {
+      "id": "4",
+      "name": "Mateus_Asato",
+      "path": "/creators/Mateus_Asato.webp"
+    },
+    {
+      "id": "5",
+      "name": "Michael_Blanken",
+      "path": "/creators/Michael_Blankenship.webp"
+    },
+    {
+      "id": "6",
+      "name": "Paul_Turner",
+      "path": "/creators/Paul_Turner.webp"
+    },
+    {
+      "id": "7",
+      "name": "Plini",
+      "path": "/creators/Plini.webp"
+    },
+    {
+      "id": "8",
+      "name": "Stan_Bicknell",
+      "path": "/creators/Stan_Bicknell.webp"
+    }
+  ]
+}

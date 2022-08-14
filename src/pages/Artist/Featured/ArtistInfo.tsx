@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { StyledTitle, StyledContent, StyledButton } from '../styledItem';
+import { StyledTitle, StyledText, StyledButton } from '../styledItem';
 import { MEDIA_QUERY_MD, MEDIA_QUERY_SM } from '../../../constants';
 
 const TextWrapper = styled.div`
@@ -20,18 +20,7 @@ const TextWrapper = styled.div`
   }
 `;
 
-const ResponsiveTitle = styled(StyledTitle)`
-  @media ${MEDIA_QUERY_MD} {
-    font-size: 30px;
-  }
-  @media ${MEDIA_QUERY_SM} {
-    font-size: 24px;
-    font-weight: 600;
-    padding-top: 15px;
-  }
-`;
-
-const ResponsiveContent = styled(StyledContent)`
+const ResponsiveContent = styled(StyledText)`
   @media ${MEDIA_QUERY_MD} {
     font-size: 12px;
   }
@@ -50,7 +39,7 @@ const ArtistInfo = () => {
   return (
     <>
       <TextWrapper>
-        <ResponsiveTitle>Featured Artists</ResponsiveTitle>
+        <StyledTitle>Featured Artists</StyledTitle>
         <ResponsiveContent>
           Zane Carney talks LA jazz and new album 'Alter Ego'.
         </ResponsiveContent>

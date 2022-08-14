@@ -1,3 +1,5 @@
+export const MEDIA_QUERY_XL = '(min-width: 1200px)'
+
 export const MEDIA_QUERY_LG = '(min-width: 997px)'
 
 export const MEDIA_QUERY_MD = '(min-width: 768px) and (max-width: 996px)'
