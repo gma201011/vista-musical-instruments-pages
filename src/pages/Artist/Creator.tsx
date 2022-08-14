@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react';
 import styled from 'styled-components';
-import { StyledTitle, StyledText } from '../styledItem';
-import { getCreators } from '../../../webApi';
+import { StyledTitle, StyledText } from './styledItem';
+import { getCreators } from '../../webApi';
 import {
   MEDIA_QUERY_SM,
   MEDIA_QUERY_MD,
   MEDIA_QUERY_XL,
-} from '../../../constants';
-import { useViewport } from '../../../hooks/useViewport';
+} from '../../constants';
+import { useViewport } from '../../hooks/useViewport';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper';
 import 'swiper/css';
@@ -56,7 +56,7 @@ const StyledName = styled(StyledText)`
 `;
 
 const StyledSwiper = styled(Swiper)`
-  padding: 10% 0;
+  padding: 15% 0;
   position: relative;
   height: 100%;
   .swiper-pagination {

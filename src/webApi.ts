@@ -7,3 +7,11 @@ export const getCreators = async () => {
     console.log(error);
   }
 }
+
+export const getArtists = async () => {
+  try {
+    return await axios.get('./data/artistList.json').then((res: AxiosResponse) => res.data.artist);
+  } catch (error) {
+    console.log(error);
+  }
+}
