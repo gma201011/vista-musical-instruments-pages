@@ -1,19 +1,14 @@
-import styled from 'styled-components';
-import FeaturedArtist from './Featured/FeaturedArtist';
-import Creator from './Creator';
-import ArtistList from './ArtistList';
-
-const Wrapper = styled.div`
-  max-width: 100%;
-`;
+import FeaturedArtist from './FeaturedArtist/FeaturedArtist';
+import Creator from './Creator/Creator';
+import ArtistList from './ArtistList/ArtistList';
 
 const Artist = () => {
   return (
-    <Wrapper>
+    <>
       <FeaturedArtist />
       <Creator />
       <ArtistList />
-    </Wrapper>
+    </>
   );
 };
 
