@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { StyledTitle, StyledText, StyledButton } from '../styledFont';
 import {
+  MEDIA_QUERY_XL,
   MEDIA_QUERY_LG,
   MEDIA_QUERY_MD,
   MEDIA_QUERY_SM,
@@ -11,10 +12,20 @@ export const CoverWrapper = styled.div`
   height: 100%;
   position: relative;
   background: ${(props) => props.theme.background.colors.primary_black};
+  @media ${MEDIA_QUERY_XL} {
+    padding-top: 48%;
+    height: 0;
+    overflow: hidden;
+  }
 `;
 
 export const StyledImg = styled.img`
   max-width: 100%;
+  @media ${MEDIA_QUERY_XL} {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
   @media ${MEDIA_QUERY_LG} {
     width: 100%;
   }
