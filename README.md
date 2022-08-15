@@ -1,3 +1,15 @@
+## Running the project
+
+`git clone https://github.com/gma201011/vista-musical-instruments-pages.git`
+
+`cd vista-musical-instruments-pages`
+
+`npm install`
+
+`npm start`
+
+
+
 ## Tools
 
 * React
